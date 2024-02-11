@@ -44,7 +44,7 @@ linkEL.addEventListener('click', function () {
 })
 
 async function fetchData() {
-  const apiUrl = 'http://api.open-notify.org/astros.json'
+  const apiUrl = 'https://corquaid.github.io/international-space-station-APIs/JSON/people-in-space.json'
   try {
     const resp = await fetch(apiUrl)
     const data = await resp.json()
