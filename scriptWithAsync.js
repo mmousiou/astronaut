@@ -56,7 +56,7 @@ async function fetchData() {
     
     let moreInfoOutput = ''
     peopleArray.forEach(item => {
-      const temp = `<p>&nbsp🧑${item.name}, 🚀${item.craft}</p>`
+      const temp = `<p>&nbsp🧑${item.name}, 🚀${item.spacecraft}</p>`
       moreInfoOutput += temp
     })
   
