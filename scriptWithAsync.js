@@ -50,6 +50,8 @@ async function fetchData() {
     const data = await resp.json()
     console.log('🌟data: ', data)
     peopleArray = [...data.people]
+    console.log('🐈‍⬛people: ', data)
+  
     numberOfPeople = data.number
   
     peopleNumberEL.innerHTML = numberOfPeople
